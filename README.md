@@ -28,7 +28,7 @@ El proyecto utiliza un corpus de palabras y definiciones almacenado en un archiv
 
 1. Clona este repositorio en tu máquina local:
    ```bash
-   git clone <URL_DEL_REPOSITORIO>
+   git clone https://github.com/dllbdev/PasaLaPalabra.git
    ```
 2. Abre el archivo `index.html` en tu navegador.
 
