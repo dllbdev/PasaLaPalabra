@@ -1,0 +1,73 @@
+/* Estilos personalizados para el rosco */
+.rosco {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    border: 2px solid #3498db;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .letras {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+
+  .letra {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #3498db;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #3498db;
+    background-color: #ecf0f1;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  .letra.correcta {
+    background-color: #2ecc71;
+    color: white;
+    border-color: #2ecc71;
+  }
+
+  .letra.incorrecta {
+    background-color: #e74c3c;
+    color: white;
+    border-color: #e74c3c;
+  }
+
+  .pregunta {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #2c3e50;
+  }
+
+  .info-item {
+    text-align: center;
+  }
+
+  .info-label {
+    font-size: 1rem;
+    color: #7f8c8d;
+  }
+
+  .info-value {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #2c3e50;
+  }
+
+  .copyleft {
+    display:inline-block;
+    transform: rotate(180deg);
+  }
